@@ -50,26 +50,7 @@ function Create() {
       console.log("Data sent successfully!", usersRepo.data);
       alert("Used Data Successfully Created");
       navigate('/dashboard');
-      setFormData({
-        username: "",
-        name: "",
-        email: "",
-        address: {
-          street: "",
-          city: "",
-          zipcode: "",
-        },
-        phoneNumber: "",
-        birthday: "",
-        age:'',
-        website: "",
-        company: {
-          name: "",
-          role: "",
-          experience: "",
-          about: "",
-        }
-        });
+      setFormData('');
     } catch (error) {
       console.error("Error sending data:", error);
     }
@@ -124,7 +105,6 @@ function Create() {
                     />
                   </div>
                 </div>
-
                 <div className="row gx-3 mb-3">
                   <div className="col-md-6">
                     <label className="small mb-1" htmlFor="inputEmail">

@@ -72,26 +72,7 @@ function Edit() {
       console.log("Data sent successfully!", response.data);
       alert("Used Data Successfully Edited");
       navigate('/dashboard')
-      setFormData({
-        username: "",
-        name: "",
-        email: "",
-        address: {
-          street: "",
-          city: "",
-          zipcode: "",
-        },
-        phoneNumber: "",
-        birthday: "",
-        age: "",
-        website: "",
-        company: {
-          name: "",
-          role: "",
-          experience: "",
-          about: "",
-        },
-      });
+      setFormData('');
     } catch (error) {
       console.error("Error sending data:", error);
     }
