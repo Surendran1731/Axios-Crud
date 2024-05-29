@@ -27,6 +27,7 @@ function View() {
   });
 
   useEffect(() => {
+    console.log('useEffect()');
     const getUser = async () => {
       try {
         const response = await axios.get(
@@ -40,7 +41,8 @@ function View() {
     };
 
     getUser();
-  }, [params.id]);
+  }, []);
+  console.log(params);
   return (
     <div class="container" style={{ margin: "100px" }}>
       <div class="row align-items-center">

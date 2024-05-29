@@ -19,7 +19,9 @@ function UserDetails() {
                console.error("Error Occured", error)
           }
      }
-     useEffect(() => getUserData(), [])
+     useEffect(() =>{
+          getUserData()}, 
+     [])
      const navigate = useNavigate();
      return (
           <>
