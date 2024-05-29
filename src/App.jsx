@@ -30,18 +30,18 @@ function App() {
           <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
             Axios CRUD
           </Typography>
-          <Button onClick={() => navigate('/')} size="large" color="inherit">Home</Button>
-          <Button onClick={() => navigate('/dashboard')} size="large" color="inherit">Dashboard</Button>
-          <Button onClick={() => navigate('/create')} size="large" color="inherit">Add User</Button>
+          <Button onClick={() => navigate("/")} size="large" color="inherit">Home</Button>
+          <Button onClick={() => navigate("/dashboard")} size="large" color="inherit">Dashboard</Button>
+          <Button onClick={() => navigate("/create")} size="large" color="inherit">Add User</Button>
 
         </Toolbar>
       </AppBar>
 
 
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/dashboard' element={<UserDetails />} />
-        <Route path='/create' element={<Create />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<UserDetails />} />
+        <Route path="/create" element={<Create />} />
         <Route path="/dashboard/edit/:id" element={<Edit />} />
         <Route path="/dashboard/view/:id" element={<View />} />
       </Routes>
