@@ -6,7 +6,7 @@
 
 ###
 
- <p align="1eft">Demo : https://axios-crud-01.netlify.app</p> 
+ <p align="1eft">Demo : https://axios-crud-pink.vercel.app</p> 
 
 ###
 
