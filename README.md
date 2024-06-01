@@ -54,36 +54,7 @@
   <img width="12" />
   <img src="https://cdn.simpleicons.org/netlify/00C7B7" height="40" alt="netlify logo"  />
 </div>
-
-###
-
-<h2 align="left">Screen shoot</h2>
-
-###
-
-<h3 align="left">Home Page</h3>
-
-###
-
-![image](https://github.com/Prakash-V-S/Axios-CRUD/assets/141955456/ec673cdd-0de9-497e-9c26-68392b8d84d3)
-
-<h3 align="left">Dashboard</h3>
-
-###
-
-![image](https://github.com/Prakash-V-S/Axios-CRUD/assets/141955456/628a801d-b781-4053-ac91-5cfaebc17d6b)
-
-<h3 align="left">User Data</h3>
-
-###
-
-![image](https://github.com/Prakash-V-S/Axios-CRUD/assets/141955456/855c278f-8597-419f-801d-dcd72da2e3ee)
-<h3 align="left">Create & Edit User Data</h3>
-
-###
-
-![image](https://github.com/Prakash-V-S/Axios-CRUD/assets/141955456/7a77cab2-a9cb-4d24-82e9-742656a9f48f)
-
+ 
  
 ## Feedback
 
